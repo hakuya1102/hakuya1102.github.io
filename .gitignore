@@ -1,0 +1,16 @@
+# Hugo build output
+/public/
+
+# Hugo server cache
+/resources/_gen/
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+
+# Node dependencies (if used)
+node_modules/
+
+# IDE
+.idea/
+.vscode/
