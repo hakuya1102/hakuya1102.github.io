@@ -1,4 +1,19 @@
 baseURL = "https://hakuya1102.github.io/"
 languageCode = "en-us"
-title = "My Blog"
+title = "はくやのひみつきち"
 theme = "blowfish"
+
+[params.author]
+  name = "hakuya"
+  email = "hakuya1102@gmail.com"
+  image = "img/kotone.jpg"
+  imageQuality = 96
+  headline = "I'm only human"
+  bio = "A little bit about you"
+
+[params.homepage]
+  layout = "hero"       # try "page" or "card" for a blog-like layout
+  showRecent = true     # show recent posts
+  showRecentItems = 5   # how many posts to show
+  showMoreLink = true   # show "More" link at bottom
+  showMoreLinkDest = "/posts/"
