@@ -2,14 +2,18 @@ baseURL = "https://hakuya1102.github.io/"
 languageCode = "en-us"
 title = "はくやのひみつきち"
 theme = "blowfish"
+enableSearch = true
 
 [params.author]
-  name = "hakuya"
+name = "はくや"
   email = "hakuya1102@gmail.com"
-  image = "img/kotone.jpg"
-  imageQuality = 96
-  headline = "I'm only human"
+  image = "img/hiro_3.jpg"
+  imageQuality = 100
+  # headline = ""
   bio = "A little bit about you"
+  links = [
+    { email = "mailto:hakuya1102@gmail.com" },
+  ]
 
 [params.homepage]
   layout = "hero"       # try "page" or "card" for a blog-like layout
@@ -17,3 +21,11 @@ theme = "blowfish"
   showRecentItems = 5   # how many posts to show
   showMoreLink = true   # show "More" link at bottom
   showMoreLinkDest = "/posts/"
+  # homepageImage = "img/hiro_2.jpg"
+  homepageImage = "img/fireflies.svg"
+  cardView = true # 将列表展示为卡片容器。
+  # disableHeroImageFilter = true
+
+[params.style]
+  rounded = true
+  
