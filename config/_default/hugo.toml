@@ -5,9 +5,9 @@ theme = "blowfish"
 enableSearch = true
 
 [params.author]
-name = "はくや"
+  name = "はくや"
   email = "hakuya1102@gmail.com"
-  image = "img/hiro_3.jpg"
+  image = "/img/hiro_3.jpg"
   imageQuality = 100
   # headline = ""
   bio = "A little bit about you"
