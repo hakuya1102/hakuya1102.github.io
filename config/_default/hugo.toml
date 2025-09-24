@@ -7,7 +7,7 @@ enableSearch = true
 [params.author]
   name = "はくや"
   email = "hakuya1102@gmail.com"
-  image = "/img/hiro_3.jpg"
+  image = "img/kotone.jpg"
   imageQuality = 100
   # headline = ""
   bio = "A little bit about you"
