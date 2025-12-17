@@ -2,7 +2,15 @@ baseURL = "https://hakuya1102.github.io/"
 languageCode = "en-us"
 title = "はくやのひみつきち"
 theme = "blowfish"
+mainSections = ["posts","instructions","learning"]
 enableSearch = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
 
 [params.author]
   name = "はくや"
@@ -39,4 +47,27 @@ enableSearch = true
   [[menu.main]]
     name = "Posts"
     url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Instructions"
+    url = "/instructions/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Learning"
+    identifier = "learning"
+    url = "/learning/"
+    weight = 4
+
+  [[menu.main]]
+    name = "A"
+    url = "/learning/a/"
+    parent = "learning"
+    weight = 1
+
+  [[menu.main]]
+    name = "B"
+    url = "/learning/b/"
+    parent = "learning"
     weight = 2
